@@ -1,0 +1,59 @@
+body {
+  font-family: Inter;
+  margin: 0;
+}
+
+header {
+  background-color: #EAC91E;
+  width: 100%;
+  height: 56px;
+}
+
+.container_logo {
+  height: 56px;
+  width: 179px;
+  position: absolute;
+}
+
+.logo {
+  text-align: center;
+  line-height: 56px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-size: 24px;
+  color: #141414;
+  text-stroke: 0.5px #CBBAAA;
+  -webkit-text-stroke: 0.5px #CBBAAA;
+  font-weight: 500;
+}
+
+.container_user {
+  position: absolute;
+  right: 0;
+  width: 200px;
+}
+
+.icon_user {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 0.5px solid #CBBAAA;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.text_user {
+  text-align: center;
+  line-height: 56px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-size: 15px;
+  color: #141414;
+  text-stroke: 0.5px #CBBAAA;
+  -webkit-text-stroke: 0.5px #CBBAAA;
+}
+
+/*# sourceMappingURL=main.css.map */
