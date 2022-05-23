@@ -56,4 +56,14 @@ header {
   -webkit-text-stroke: 0.5px #CBBAAA;
 }
 
+.icon_user_logout {
+  line-height: 56px;
+  position: absolute;
+  right: 22px;
+  font-size: 15px;
+  color: #141414;
+  text-stroke: 0.5px #CBBAAA;
+  -webkit-text-stroke: 0.5px #CBBAAA;
+}
+
 /*# sourceMappingURL=main.css.map */

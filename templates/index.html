@@ -5,10 +5,22 @@
         <title>
             Meet Place
         </title>
+        <!-- Fonts -->
         <link href="http://fonts.cdnfonts.com/css/inter" rel="stylesheet">
         <link href="http://fonts.cdnfonts.com/css/manrope-3" rel="stylesheet">
         <link href="http://fonts.cdnfonts.com/css/ibm-plex-sans-condensed-2" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
         <link rel="stylesheet" href="css/main.css">
+        <!-- React -->
+        <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+        <!-- Jquery -->
+        <script
+        src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous"></script>
+        <script src="js/main.js"></script>
     </head>
     <body>
         <header>
@@ -16,8 +28,13 @@
                 <span class="logo">MeetPlace</span>
             </div>
             <div class="container_user">
-                <img class="icon_user" src="css/avatar.png">
-                <span class="text_user"> Joe Biden </span>
+                <div id="user_loged_in">
+                    <img class="icon_user" src="css/avatar.png">
+                    <span class="text_user" id="user_name"> Joe Biden </span>
+                    <span class="icon_user_logout material-icons" id="logout">navigate_before</span>
+                </div>
+                <span class="text_user" id="register"> Register </span>
+                <span class="text_user" id="login"> Login </span>
             </div>
         </header> 
     </body>
