@@ -6,7 +6,7 @@ $(".logout").hover(function() {
   });
 
 $("body").ready(function() {
-    $("#register").hide();
-    $("#login").hide();
+    //$("#register").hide();
+    //$("#login").hide();
     $("#user_loged_in").hide();
 });
